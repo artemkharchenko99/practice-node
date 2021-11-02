@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
+    "start-prod": "node index.js",
+    "server.js": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,5 +14,9 @@
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^2.0.14"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12"
   }
 }
